@@ -1,0 +1,14 @@
+<div class="container">
+
+@for (item of diferenciais; track item.icone){
+
+<div class="card">
+
+<img [src]="item.icone" [alt]="" [class]="item.titulo">
+<h3>{{item.titulo}}</h3>
+<p>{{item.descricao}}</p>
+
+</div>
+}
+
+</div>
